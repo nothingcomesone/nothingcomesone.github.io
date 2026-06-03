@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>学习资源中心 · Study Hubs</title>
+  <meta name="description" content="中文与文学 HSC 复习、Year 7–11 课堂资源、日语 —— 全部学习网站集中目录，点开即用。">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@500;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap');
+    :root {
+      --ink: #1f2933; --muted: #5d6875; --line: #d7dee8;
+      --paper: #ffffff; --wash: #f6f8fb;
+      --teal: #0f766e; --teal-soft: #e7f4f2;
+      --red: #a43b3b; --red-soft: #faeeee;
+      --gold: #87620e; --gold-soft: #fff6dc;
+      --blue: #2b5d8a; --blue-soft: #edf5fb;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--wash); color: var(--ink);
+      font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", Arial, sans-serif; line-height: 1.65; }
+    main { width: min(1080px, calc(100% - 32px)); margin: 28px auto 64px; background: var(--paper); border: 1px solid var(--line); box-shadow: 0 18px 48px rgba(31,41,51,0.08); }
+    header { padding: 52px 46px 40px; border-bottom: 1px solid var(--line);
+      background: linear-gradient(135deg, rgba(15,118,110,0.13), rgba(135,98,14,0.10) 60%, rgba(43,93,138,0.10)), #fff; }
+    h1 { margin: 0 0 10px; font-family: 'Noto Serif SC', serif; font-size: 38px; font-weight: 900; letter-spacing: 1px; }
+    .subtitle { color: var(--muted); font-size: 18px; margin: 0 0 20px; }
+    .hint { display: inline-block; padding: 10px 16px; border: 1px solid #ead394; background: var(--gold-soft); border-radius: 10px; font-size: 14px; }
+    .hint strong { color: var(--gold); }
+    section { padding: 34px 46px; border-bottom: 1px solid var(--line); }
+    section:last-of-type { border-bottom: 0; }
+    h2 { margin: 0 0 4px; font-family: 'Noto Serif SC', serif; font-size: 23px; display: flex; align-items: center; gap: 12px; }
+    h2 .dot { width: 12px; height: 12px; border-radius: 3px; flex: none; }
+    .sec-intro { color: var(--muted); font-size: 14px; margin: 0 0 18px; }
+    .grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+    .card { display: flex; flex-direction: column; padding: 20px 22px; border: 1px solid var(--line);
+      border-radius: 12px; background: #fff; text-decoration: none; color: var(--ink); transition: transform .15s, border-color .15s, box-shadow .15s; }
+    .card:hover { transform: translateY(-2px); border-color: var(--teal); box-shadow: 0 10px 26px rgba(31,41,51,0.10); }
+    .tag { align-self: flex-start; font-size: 12px; font-weight: 700; padding: 3px 11px; border-radius: 999px; margin-bottom: 10px; }
+    .card .title { font-size: 19px; font-weight: 800; margin-bottom: 6px; font-family: 'Noto Serif SC', serif; }
+    .card .desc { font-size: 13.5px; color: var(--muted); margin-bottom: 14px; flex: 1; }
+    .card .open { font-size: 13px; font-weight: 800; color: var(--teal); }
+    .card .url { display: block; font-size: 11.5px; color: #9aa6b2; margin-top: 4px; word-break: break-all; }
+    /* accent variants */
+    .teal .dot { background: var(--teal); } .teal .tag { background: var(--teal-soft); color: var(--teal); } .teal.card:hover { border-color: var(--teal); } .teal .open { color: var(--teal); }
+    .red  .dot { background: var(--red); }  .red .tag  { background: var(--red-soft);  color: var(--red); }  .red.card:hover  { border-color: var(--red); }  .red .open  { color: var(--red); }
+    .gold .dot { background: var(--gold); } .gold .tag { background: var(--gold-soft); color: var(--gold); } .gold.card:hover { border-color: var(--gold); } .gold .open { color: var(--gold); }
+    .blue .dot { background: var(--blue); } .blue .tag { background: var(--blue-soft); color: var(--blue); } .blue.card:hover { border-color: var(--blue); } .blue .open { color: var(--blue); }
+    footer { padding: 28px 46px; background: var(--wash); font-size: 13px; color: var(--muted); }
+    @media (max-width: 760px) {
+      main { width: 100%; margin: 0; border-left: 0; border-right: 0; }
+      header, section, footer { padding: 26px 20px; }
+      .grid { grid-template-columns: 1fr; }
+      h1 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>学习资源中心</h1>
+    <p class="subtitle">Chinese &amp; Japanese · Study Hubs —— HSC 复习、课堂材料、互动工具，点开即用</p>
+    <span class="hint"><strong>怎么用：</strong>点任意卡片即可打开对应网站；把本页网址发给学生，他们就能看到全部资源。</span>
+  </header>
+
+  <!-- ===== HSC 复习中心 ===== -->
+  <section class="teal">
+    <h2><span class="dot"></span>HSC 中文与文学 · 复习中心</h2>
+    <p class="sec-intro">Year 12 规定文本（2025–2030 NESA Prescribed Texts）—— 每个含课堂幻灯、章节分析、参考附录与 Q3 / Q4 练习。</p>
+    <div class="grid">
+      <a class="card red" href="https://nothingcomesone.github.io/jiafeng-hsc-revision/" target="_blank" rel="noopener">
+        <span class="tag">纪实文学 · Theme 1 + 2</span>
+        <span class="title">《夹缝中的光芒》</span>
+        <span class="desc">Light in the Crevice —— 9 课 + 8 章节分析 + 4 个附录 + Q3 / Q4 练习集（含 Band 6 范文）。</span>
+        <span class="open">打开网站 →<span class="url">nothingcomesone.github.io/jiafeng-hsc-revision</span></span>
+      </a>
+      <a class="card teal" href="https://nothingcomesone.github.io/piaobeifang-hsc-revision/" target="_blank" rel="noopener">
+        <span class="tag">歌词 · Theme 1（1.1 + 1.3）</span>
+        <span class="title">《漂向北方》</span>
+        <span class="desc">9 课 + 6 段歌词逐段分析 + 4 个附录 + Q3 / Q4 练习（三种格式）。三源校对。</span>
+        <span class="open">打开网站 →<span class="url">nothingcomesone.github.io/piaobeifang-hsc-revision</span></span>
+      </a>
+      <a class="card blue" href="https://nothingcomesone.github.io/farewell-hsc-revision/" target="_blank" rel="noopener">
+        <span class="tag">电影 · The Farewell (2019)</span>
+        <span class="title">《别告诉她》</span>
+        <span class="desc">9 课 + 20 章节分析 + 4 个附录 + Q3 练习。议题 1.1 / 1.3 / 3.1 / 3.2。</span>
+        <span class="open">打开网站 →<span class="url">nothingcomesone.github.io/farewell-hsc-revision</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== Year 11 ===== -->
+  <section class="gold">
+    <h2><span class="dot"></span>Year 11 中文与文学</h2>
+    <p class="sec-intro">Preliminary 课堂资源 —— 课件、课堂活动、学生工作纸。</p>
+    <div class="grid">
+      <a class="card gold" href="https://nothingcomesone.github.io/chinese-class/" target="_blank" rel="noopener">
+        <span class="tag">课堂资源 · Year 11</span>
+        <span class="title">Year 11 课堂中心</span>
+        <span class="desc">每周课件 + 活动 + 工作纸（含教师备课参考）。逐周更新。</span>
+        <span class="open">打开网站 →<span class="url">nothingcomesone.github.io/chinese-class</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== 初中中文 ===== -->
+  <section class="blue">
+    <h2><span class="dot"></span>初中中文 · Junior Chinese</h2>
+    <p class="sec-intro">Years 7–8 —— 演讲准备与互动练习工具。</p>
+    <div class="grid">
+      <a class="card teal" href="https://nothingcomesone.github.io/y7-pitch-prep/" target="_blank" rel="noopener">
+        <span class="tag">Year 7</span>
+        <span class="title">Year 7 演讲准备</span>
+        <span class="desc">Family Charity Auction pitch prep —— 5 页静态准备站点。</span>
+        <span class="open">打开网站 →<span class="url">nothingcomesone.github.io/y7-pitch-prep</span></span>
+      </a>
+      <a class="card blue" href="https://nothingcomesone.github.io/y8-pitch-prep/" target="_blank" rel="noopener">
+        <span class="tag">Year 8</span>
+        <span class="title">Year 8 演讲准备</span>
+        <span class="desc">Pitch prep —— 4 个互动工具 + 参考资料。</span>
+        <span class="open">打开网站 →<span class="url">nothingcomesone.github.io/y8-pitch-prep</span></span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ===== 日语 ===== -->
+  <section class="red">
+    <h2><span class="dot"></span>日语 · Japanese</h2>
+    <p class="sec-intro">日语课堂材料。</p>
+    <div class="grid">
+      <a class="card red" href="https://nothingcomesone.github.io/Japaneselesson/" target="_blank" rel="noopener">
+        <span class="tag">Japanese</span>
+        <span class="title">Japanese Lesson</span>
+        <span class="desc">日语课堂资源。</span>
+        <span class="open">打开网站 →<span class="url">nothingcomesone.github.io/Japaneselesson</span></span>
+      </a>
+    </div>
+  </section>
+
+  <footer>
+    本页是所有学习网站的总目录。需要新增或调整链接时更新本页即可。
+  </footer>
+</main>
+</body>
+</html>
